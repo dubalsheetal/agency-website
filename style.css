@@ -1,0 +1,79 @@
+/*********main-section***************/
+#main_section {
+    font-weight: bolder;
+    background-color: rgb(231, 220, 220);
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#picture {
+    width: 80px;
+    height: 10px;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+span {
+    color: blue;
+}
+
+h3 {
+    text-align: end;
+    margin-right: 20px;
+}
+
+/********* sub-section***************/
+#sub-section {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+
+
+}
+
+#img-b {
+    display: flex;
+    flex-direction: column;
+}
+
+#sub-section,
+#img-b,
+#img-c {
+    display: flex;
+    flex-direction: row;
+}
+
+#img-section {
+    display: flex;
+    flex-direction: row;
+
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#beauty-info {
+    flex-direction: column;
+    margin: 10px;
+    font-size: x-small;
+}
+
+p {
+    margin: 10px;
+}
+
+#const-info {
+    flex-direction: column;
+    margin: 10px;
+    font-size: x-small;
+}
